@@ -6,6 +6,6 @@ let count = 0
 incrementBtn.addEventListener("click",function(){
 	alert(count)
 	count++
-	counter.innertext(count)
+	counter.innertext= count
 	
 })
